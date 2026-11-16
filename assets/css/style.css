@@ -35,6 +35,11 @@ h2 {
     font-size: 1.2rem;
 }
 
+#portfolio .card-text {
+    min-height: 120px;
+}
+
+/* Targeting .btn is a broader approach than the more specific .btn-outline-secondary class and although it does work it is best practice to use the more specific class */
 #portfolio .btn-outline-secondary:hover {
     background-color: #1f7798; /* mid blue */
 }
@@ -51,4 +56,14 @@ h2 {
     background-position: 50% 70%;
     min-height: 500px;
     padding: 5% 7%;
+}
+
+/* Media queries */
+
+/*  Use Bootstrap breakpoint for XL screens  */
+@media screen and (min-width: 2200px) {
+    /* Fixes all porfolio cards being too tall on xl screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
