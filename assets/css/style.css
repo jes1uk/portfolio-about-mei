@@ -20,12 +20,18 @@ h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63; /* dark-blue */
 }
-/* About section */
+/* .sharp-corners *: Overrides all the inner children's individual border radii to 0 because they wouldn't change on their own (since they have their own explicit styling rules applied by the Bootstrap framework). */
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
+/* ABOUT section */
 #about {
     background-color: white;
 }
 
-/* portfolio */
+/* PORTFOLIO section */
 #portfolio {
     background-color: #dbdcde; /* light grey */
 }
@@ -58,7 +64,7 @@ h2 {
     padding: 5% 7%;
 }
 
-/* Media queries */
+/* MEDIA QUERIES */
 
 /*  Use Bootstrap breakpoint for XL screens  */
 @media screen and (min-width: 2200px) {

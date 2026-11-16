@@ -90,7 +90,7 @@
                     <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
                     <button
                         type="button"
-                        class="btn btn-primary"
+                        class="btn btn-primary sharp-corners"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
                     >
@@ -152,8 +152,9 @@
                     <div class="col-12 text-center my-4">
                         <h2 class="display-5">Portfolio</h2>
                     </div>
+                    <!-- cols for cards -->
                     <div
-                        class="card col-12 col-md-6 mb-3 mx-auto"
+                        class="card sharp-corners col-12 col-md-6 mb-3 mx-auto"
                         style="width: 18rem;"
                     >
                         <img
@@ -177,7 +178,7 @@
                     </div>
 
                     <div
-                        class="card col-12 col-md-6 mb-3 mx-auto"
+                        class="card sharp-corners col-12 col-md-6 mb-3 mx-auto"
                         style="width: 18rem;"
                     >
                         <img
@@ -201,7 +202,7 @@
                     </div>
 
                     <div
-                        class="card col-12 col-md-6 mb-3 mx-auto"
+                        class="card sharp-corners col-12 col-md-6 mb-3 mx-auto"
                         style="width: 18rem;"
                     >
                         <img
@@ -225,7 +226,7 @@
                     </div>
 
                     <div
-                        class="card col-12 col-md-6 mb-3 mx-auto"
+                        class="card sharp-corners col-12 col-md-6 mb-3 mx-auto"
                         style="width: 18rem;"
                     >
                         <img
@@ -267,7 +268,7 @@
                 <div class="col-12 col-md-10 col-lg-8 text-center">
                     <!-- Add your form here. NOTE that the Bootstrap form is not responsive as it comes, BUT can be made to be responsive using a Bootstrap Grid -->
                     <!-- Note that gutters use horizontal padding on the grid columns and vertical margins on the columns to create space between the layout containers holding those fields. -->
-                    <form class="row g-3 mb-4">
+                    <form class="row g-3 mb-4 sharp-corners">
                         <div class="col-md-6 col-lg-4">
                             <label for="full-name" class="form-label"
                                 >Full Name</label
@@ -310,7 +311,10 @@
                         </div>
 
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary">
+                            <button
+                                type="submit"
+                                class="btn btn-primary sharp-corners"
+                            >
                                 Send
                             </button>
                         </div>
@@ -318,6 +322,7 @@
                 </div>
             </div>
         </footer>
+        <!-- Bootstrap modal -->
         <!-- Modal -->
         <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
         <div
@@ -328,7 +333,7 @@
             aria-hidden="true"
         >
             <div class="modal-dialog modal-lg">
-                <div class="modal-content">
+                <div class="modal-content sharp-corners">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">
                             Subscribe
@@ -368,7 +373,7 @@
                                     placeholder="Your full email address"
                                 />
                             </div>
-                            <div class="col-12 mb-4">
+                            <div class="col-12 mb-4 sharp-corners">
                                 <button
                                     type="submit"
                                     class="btn btn-primary me-auto"
