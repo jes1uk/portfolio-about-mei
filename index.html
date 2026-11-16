@@ -85,7 +85,7 @@
                         Let's create something amazing together!
                     </p>
                     <!-- Button trigger modal -->
-                        <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
+                    <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
                     <button
                         type="button"
                         class="btn btn-primary"
@@ -315,61 +315,71 @@
                     </form>
                 </div>
             </div>
-
-            <!-- Modal -->
-                <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
-            <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-            >
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">
-                                Subscribe
-                            </h1>
-                            <button
-                                type="button"
-                                class="btn-close"
-                                data-bs-dismiss="modal"
-                                aria-label="Close"
-                            ></button>
-                        </div>
-                        <div class="modal-body">
+        </footer>
+        <!-- Modal -->
+        <!-- To ensure correct modal functionality, if you change the id attribute (#exampleModal) on the modal element to something else, you must update the data-bs-target attribute in the button to match it. This ensures the Bootstrap JavaScript can properly link to and open the modal. -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                            Subscribe
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
                             Join my newsletter for the latest updates on my
                             projects, coding tips, and industry insights
                             delivered straight to your inbox.
-                        <form class="row g-3 mb-4">
-                        <div class="col-12 col-md-6">
-                            <label for="name" class="form-label"
-                                >Name</label
-                            >
-                            <input
-                                type="text"
-                                class="form-control"
-                                id="name"
-                            />
-                            <div class="col-12 col-md-6">
-                            <label for="subscribe-email" class="form-label">Email</label>
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="subscribe-email"
-                                placeholder="Your full email address"
-                            />
+                        </p>
+                        <form class="row g-3">
+                            <div class="col-lg-6">
+                                <label for="name" class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                />
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="subscribe-email" class="form-label"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="subscribe-email"
+                                    placeholder="Your full email address"
+                                />
+                            </div>
+                            <div class="col-12 mb-4">
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary me-auto"
+                                >
+                                    Sign up!
+                                </button>
                             </div>
                         </form>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary me-auto">Sign up!
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+
         <!-- Bootstrap JS Script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
